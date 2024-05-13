@@ -1,6 +1,6 @@
 # 1m-block
 
-### Environment Setting ###
+### 환경 설정 ###
 ```
   sudo iptables -F
   sudo iptables -A OUTPUT -j NFQUEUE --queue-num 0
@@ -8,6 +8,12 @@
 ```
 
 <br>
+
+### 코드 요약 ###
+
+![구조](https://github.com/JungMem/1m-block/assets/108099255/a2e076d6-e4c7-4731-90eb-bedf020e841a)
+
+<br><br>
 
 ### 메모리 사용량 ###
 
